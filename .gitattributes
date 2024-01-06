@@ -1,0 +1,5 @@
+*.mov filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+AdobeBG.mov filter=lfs diff=lfs merge=lfs -text
+src/assets/AdobeBG.mov filter=lfs diff=lfs merge=lfs -text
+src/AdobeBG.mov filter=lfs diff=lfs merge=lfs -text
