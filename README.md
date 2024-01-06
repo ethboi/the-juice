@@ -6,7 +6,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Welcome to project ZING:
 
-The website works with large files. Make sure to install git lfs https://git-lfs.com/ homebrew: `brew install git-lfs`
+The website works with large files. 
+Make sure to install git lfs https://git-lfs.com/ 
+homebrew: `brew install git-lfs`
 Then install git lfs in your repository `git lfs install`.
 Track the files that are to big for the normal repo `git lfs track "*.mov"`.
 Make sure .gitattributes is tracked with: `git add .gitattributes`.
