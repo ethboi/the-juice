@@ -1,7 +1,7 @@
 import React from 'react';
 import gif from '../assets/zing-dog-transparent.gif';
 import './Styling/Home.css';
-import backgroundVideo from '../AdobeBG.mov';
+import backgroundVideo from '../assets/AdobeBG.mov';
 
 
 const Home = () => {
