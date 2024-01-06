@@ -15,7 +15,7 @@ const Home = () => {
           <img src={gif} alt="Dancing Dog" className="dancing-dog" />
         </div>
         <p>Experience the joy and excitement of $ZING as we journey to the moon together.</p>
-        <p>When your portfolio feels the Zing! 🚀💃 #ZingToTheMoon</p>
+        <p>#ZingToTheMoon</p>
     </div>
   </>
   );

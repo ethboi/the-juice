@@ -1,5 +1,5 @@
 .navbar {
-  background: linear-gradient(40deg,#000000bc, #000000);
+  background: linear-gradient(40deg,#000000c3, #0000007c);
   color: white;
   padding: 0rem 1rem;
   display: flex;
@@ -17,7 +17,8 @@
 }
 
 .logo {
-  width: 300px; /* Set the width of the logo */
+  margin-top: 0.5rem;
+  width: 90px; /* Set the width of the logo */
 }
 
 .logo-img {
@@ -27,7 +28,7 @@
 
 .navbar nav ul {
     list-style: none;
-    padding: 1rem;
+    padding: 0rem;
     display: flex;
     justify-content: center;
   }
@@ -38,9 +39,6 @@
   
 .navbar nav a {
   text-decoration: none;
-  color: white;
+  color: rgba(255, 255, 255, 0.893);
   font-weight: bold;
 }
-  
-
-

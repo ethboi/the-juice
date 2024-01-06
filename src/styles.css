@@ -26,7 +26,7 @@
   }
   
   #core-concepts {
-    padding: 3rem;
+    padding: 4rem;
     border-radius: 6px;
     background-color: #140524;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
@@ -41,32 +41,32 @@
   
   #core-concepts ul {
     list-style:none ;
-    padding: 0;
+    padding: 1rem;
     margin: 0;
     display:flex;
-    gap: 5rem;
+    gap: 5.5rem;
     flex-wrap: wrap;
     justify-content: center;
   }
   
   #core-concepts li {
-    width: 13rem;
+    width: 14rem;
     text-align: center;
     background: linear-gradient(45deg, #4c4c4c, #1a1a1a); /* Greyscale gradient for the price box */
-    padding: 0.5rem; /* Increase the padding */
+    padding: 0.8rem; /* Increase the padding */
     border-radius: 10px; /* Slightly more rounded corners */
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3); /* Lighter shadow for a futuristic effect */
-    transition: transform 0.3s ease; /* Add a smooth transition effect */
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.3); /* Lighter shadow for a futuristic effect */
+    transition: transform 0.4s ease; /* Add a smooth transition effect */
     display: inline-block; /* Display as an inline block to wrap the logo */
     max-width: 400px; /* Increase the maximum width of the price box */
   }
 
   #core-concepts li:hover {
-    transform: scale(1.05); /* Scale up on hover */
+    transform: scale(1.1); /* Scale up on hover */
 }
   
   #core-concepts li img {
-    padding-top: rem;
+    padding-top: 0rem;
     height: 7rem;
     width: 7rem;
     object-fit: cover;
@@ -85,7 +85,9 @@
   }
   
   #examples h2 {
+    margin:10rem 0rem 3rem 0rem;
     text-align: left;
+    color:rgba(233, 230, 230, 0.828)
   }
   
   #examples menu {

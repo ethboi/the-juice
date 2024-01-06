@@ -32,7 +32,7 @@ const Examples = () => {
 
 
 return(
-<Section title="Examples" id="examples">
+<Section title="Content" id="examples">
             <Tabs 
                 buttons={
                 <>
@@ -40,25 +40,25 @@ return(
                     isSelected={selectedTopic === 'components'}
                     onSelect={() => handleSelect('components')}
                 >
-                    Components
+                    Content 1
                 </TabButton>
                 <TabButton
                     isSelected={selectedTopic === 'jsx'}
                     onSelect={() => handleSelect('jsx')}
                 >
-                    JSX
+                    Content 2
                 </TabButton>
                 <TabButton
                     isSelected={selectedTopic === 'props'}
                     onSelect={() => handleSelect('props')}
                 >
-                    Props
+                    Content 3
                 </TabButton>
                 <TabButton
                     isSelected={selectedTopic === 'state'}
                     onSelect={() => handleSelect('state')}
                 >
-                    State
+                    Content 4
                 </TabButton>
                 </>
                 }>
