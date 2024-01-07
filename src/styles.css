@@ -59,6 +59,7 @@
     transition: transform 0.4s ease; /* Add a smooth transition effect */
     display: inline-block; /* Display as an inline block to wrap the logo */
     max-width: 400px; /* Increase the maximum width of the price box */
+    
   }
 
   #core-concepts li:hover {
@@ -70,6 +71,9 @@
     height: 7rem;
     width: 7rem;
     object-fit: cover;
+    border-radius: 1rem;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.668);
+    opacity: 0.9;
   }
   
   #core-concepts li h3 {

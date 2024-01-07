@@ -1,7 +1,6 @@
-import zingImg from './assets/dog.png';
-// import propsImg from './assets/config.png';
-import jsxImg from './assets/jsx-ui.png';
-import stateImg from './assets/state-mgmt.png';
+import zingImg from './assets/dogcoin.jpg';
+import whiteP from './assets/whitepaper.jpg';
+import gameImg from './assets/gameImg.jpg';
 
 export const CORE_CONCEPTS = [
   {
@@ -11,13 +10,13 @@ export const CORE_CONCEPTS = [
       'Grab your moon boots and join the ZING Coin party – a wild ride to the crypto moon with outrageous transactions.',
   },
   {
-    image: jsxImg,
+    image: whiteP,
     title: 'Whitepaper',
     description:
       'The DanZing Dog Whitepaper, The Underdog of Meme-Coins',
   },
   {
-    image: stateImg,
+    image: gameImg,
     title: 'AmaZing Game',
     description:
       'Dive into an exhilarating crypto-trading experience, outsmart the markets, and climb to the top of the leaderboard! 🚀💰',

@@ -1,15 +1,14 @@
-.about {
-    background-color: #1c0c28b7;
+.game {
+    background-color: #1c0c28;
     text-align: center;
     padding: 2rem;
     
     
   }
 
-  .about-img {
-    width: 20%;
+  .game-img {
+    width: 60%;
     height: 80%;
     object-fit: cover;
     z-index: -1; /* Place the video behind other content */
-    border-radius: 1rem;
   }

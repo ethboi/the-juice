@@ -9,9 +9,7 @@ const Examples = () => {
     const [selectedTopic, setSelectedTopic] = useState();
 
     function handleSelect(selectedButton) {
-      // selectedButton => 'components', 'jsx', 'props', 'state'
       setSelectedTopic(selectedButton);
-      // console.log(selectedTopic);
     }
   
     console.log('APP COMPONENT EXECUTING');
