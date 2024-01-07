@@ -47,10 +47,9 @@ More Text`,
     More Text`,
   },
   state: {
-    title: 'Content 4',
+    title: '',
     description:
-      'Write something abut Zing coin or show something like the twitter page or the Discord etc',
-    code: `
-    More Text`,
+      'Stay updated with our developing team and ZING Coin',
+    code: ``,
   },
 };

@@ -1,7 +1,8 @@
 import React from 'react';
-import Twitter from './Twitter.jsx';
+//import Twitter from './Twitter.jsx';
 import './Styling/About.css';
 import background from "../assets/CP1.jpeg"
+import { Timeline } from 'react-twitter-widgets'
 
 const About = () => {
   return (
@@ -11,7 +12,16 @@ const About = () => {
         <h2>About ZingCoin</h2>
         <p>ZingCoin is a revolutionary cryptocurrency designed to bring happiness and wealth to your digital wallet.</p>
         <h1>Twitter feed</h1>
-        <Twitter/>
+        <Timeline
+          dataSource={{
+            sourceType: 'profile',
+            screenName: 'EthBoi_'
+          }}
+          options={{
+            height: '400',
+            width: '500'
+          }}
+        />
       </div>
     </section>
   );
