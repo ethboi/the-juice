@@ -9,6 +9,7 @@ const Home = () => {
     <>
       <video src={backgroundVideo} autoPlay loop muted id='video'/>
       <div className='home'>
+      
         <div className='home-content'>
           <img src={gif} alt="Dancing Dog" className="dancing-dog" />
           <h1>Welcome to the $ZING Coin Universe!</h1>

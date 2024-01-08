@@ -1,10 +1,11 @@
 // Examples.jsx
 import React, { Fragment, useState } from 'react';
 import TabButton from './TabButton.jsx';
-import { EXAMPLES } from '../../data.js'
+import { EXAMPLES } from '../../data.js';
 import Section from './Section.jsx';
 import Tabs from './Tabs.jsx';
-import { Timeline } from 'react-twitter-widgets'
+import { Timeline } from 'react-twitter-widgets';
+import Discord from './Discord.jsx'; // Import the Discord component
 
 const Examples = () => {
   const [selectedTopic, setSelectedTopic] = useState();
@@ -20,8 +21,8 @@ const Examples = () => {
       <div id="tab-content">
         <h3>{EXAMPLES[selectedTopic].title}</h3>
         <p>{EXAMPLES[selectedTopic].description}</p>
-        {selectedTopic === 'state' ? (
-          // Render the Timeline component for Content 4
+        {selectedTopic === 'twitter' && (
+          // Render the Twitter feed for Content 2
           <Fragment>
             <Timeline
               dataSource={{
@@ -37,7 +38,17 @@ const Examples = () => {
               <code>{EXAMPLES[selectedTopic].code}</code>
             </pre>
           </Fragment>
-        ) : (
+        )}
+        {selectedTopic === 'discord' && (
+          // Render the Discord component for Content 1
+          <Fragment>
+            <Discord />
+            <pre>
+              <code>{EXAMPLES[selectedTopic].code}</code>
+            </pre>
+          </Fragment>
+        )}
+        {(selectedTopic === 'props' || selectedTopic === 'state') && (
           // Render code for other tabs
           <pre>
             <code>{EXAMPLES[selectedTopic].code}</code>
@@ -48,35 +59,26 @@ const Examples = () => {
   }
 
   return (
-    <Section title="Content" id="examples">
-      <Tabs buttons={
-        <>
-          <TabButton
-            isSelected={selectedTopic === 'components'}
-            onSelect={() => handleSelect('components')}
-          >
-            Content 1
-          </TabButton>
-          <TabButton
-            isSelected={selectedTopic === 'jsx'}
-            onSelect={() => handleSelect('jsx')}
-          >
-            Content 2
-          </TabButton>
-          <TabButton
-            isSelected={selectedTopic === 'props'}
-            onSelect={() => handleSelect('props')}
-          >
-            Content 3
-          </TabButton>
-          <TabButton
-            isSelected={selectedTopic === 'state'}
-            onSelect={() => handleSelect('state')}
-          >
-            Twitter/X
-          </TabButton>
-        </>
-      }>
+    <Section title="" id="examples">
+      <Tabs
+        buttons={
+          <>
+            <TabButton
+              isSelected={selectedTopic === 'discord'}
+              onSelect={() => handleSelect('discord')}
+            >
+              Discord Live
+            </TabButton>
+            <TabButton
+              isSelected={selectedTopic === 'twitter'}
+              onSelect={() => handleSelect('twitter')}
+            >
+              X/Twitter
+            </TabButton>
+            
+          </>
+        }
+      >
         {tabContent}
       </Tabs>
     </Section>

@@ -9,6 +9,7 @@
   gap: 6rem;
   width:99%;
   font-family: "Roboto Condensed", sans-serif;
+  z-index:1000;
 
 }
 

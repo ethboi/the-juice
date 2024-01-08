@@ -25,31 +25,17 @@ export const CORE_CONCEPTS = [
 ];
 
 export const EXAMPLES = {
-  components: {
-    title: 'Content 1',
+  discord: {
+    title: 'AmaZing Discord',
     description:
-      'Write something abut Zing coin or show something like the twitter page or the Discord etc',
-    code: `
-More Text`,
+      'Join us and become an Underdog',
+    code: ``,
   },
-  jsx: {
-    title: 'Content 2',
-    description:
-      'Write something abut Zing coin or show something like the twitter page or the Discord etc',
-    code: `
-    More Text`,
-  },
-  props: {
-    title: 'Content 3',
-    description:
-      'Write something abut Zing coin or show something like the twitter page or the Discord etc',
-    code: `
-    More Text`,
-  },
-  state: {
+  twitter: {
     title: '',
     description:
       'Stay updated with our developing team and ZING Coin',
     code: ``,
-  },
+  }
+
 };

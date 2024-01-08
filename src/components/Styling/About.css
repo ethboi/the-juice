@@ -13,3 +13,9 @@
     z-index: -1; /* Place the video behind other content */
     border-radius: 1rem;
   }
+
+  .DiscordWidget {
+    width:600px;
+    height:500px;
+    border-style: hidden;
+  }
