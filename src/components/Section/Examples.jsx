@@ -8,13 +8,13 @@ import { Timeline } from 'react-twitter-widgets';
 import Discord from './Discord.jsx'; // Import the Discord component
 
 const Examples = () => {
-  const [selectedTopic, setSelectedTopic] = useState();
+  const [selectedTopic, setSelectedTopic] = useState('discord');
 
   function handleSelect(selectedButton) {
     setSelectedTopic(selectedButton);
   }
 
-  let tabContent = <p>Please select a topic.</p>;
+  let tabContent = '';
 
   if (selectedTopic) {
     tabContent = (

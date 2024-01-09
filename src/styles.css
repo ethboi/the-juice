@@ -1,5 +1,10 @@
  @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap");
 
+ body {
+  margin: 0;
+  padding: 0;
+}
+
   * {
     box-sizing: border-box;
   }
@@ -8,8 +13,6 @@
     font-family: "Quicksand", sans-serif;
     line-height: 1.5;
     color: #ebe7ef;
-    /* background: radial-gradient(#20094eab, #000000); */
-
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -106,9 +109,9 @@
     border: none;
     border-radius: 6px;
     background-color: transparent;
-    color: #a18aba;
+    color: #3f1070;
     font-family: "Roboto Condensed", sans-serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
   }
