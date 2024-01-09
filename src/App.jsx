@@ -7,12 +7,14 @@ import Footer from './components/Footer';
 import Game from './components/Game';
 import CoreConcepts from './components/Section/CoreConcepts';
 import Examples from './components/Section/Examples';
+import CookieBanner from './components/CookieBanner';
 
 
 
 function App() {
   return (
     <>
+    <CookieBanner />
       <Header />
       <Home/>
       <main>
@@ -23,6 +25,7 @@ function App() {
       <About />
       <Contact />
       <Footer />
+      
     </>
   );
 }
