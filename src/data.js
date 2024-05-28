@@ -5,19 +5,19 @@ import gameImg from './assets/gameImg.jpg';
 export const CORE_CONCEPTS = [
   {
     image: zingImg,
-    title: 'Buy $ZING',
+    title: 'Buy $OJ',
     description:
-      'Grab your moon boots and join the ZING Coin party – a wild ride to the crypto moon with outrageous transactions.',
+      'Grab your moon boots and join the OJ Coin party – a wild ride to the crypto moon with outrageous transactions.',
   },
   {
     image: whiteP,
     title: 'Whitepaper',
     description:
-      'The DanZing Dog Whitepaper, The Underdog of Meme-Coins',
+      'The OJ Whitepaper, The Juciest of Meme-Coins',
   },
   {
     image: gameImg,
-    title: 'AmaZing Game',
+    title: 'OJ Game',
     description:
       'Dive into an exhilarating crypto-trading experience, outsmart the markets, and climb to the top of the leaderboard! 🚀💰',
   },
@@ -26,15 +26,15 @@ export const CORE_CONCEPTS = [
 
 export const EXAMPLES = {
   discord: {
-    title: 'AmaZing Discord',
+    title: 'Infinex Discord',
     description:
-      'Join us and become an Underdog',
+      'Join us and become a DefiOrange',
     code: ``,
   },
   twitter: {
     title: '',
     description:
-      'Stay updated with our developing team and ZING Coin',
+      'Stay updated with our developing team and OJ Coin',
     code: ``,
   }
 

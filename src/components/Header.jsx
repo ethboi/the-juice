@@ -26,12 +26,12 @@ const Header = () => {
       <div className={`logo ${isScrolled ? 'small' : ''}`}>
         <img src={logo} alt="ZingCoin Logo" className="logo-img" />
       </div>
-        <h1>ZingCoin</h1>
-        <h2>The Danzing Dog Coin</h2>
+        <h1>OJCoin</h1>
+        <h2>The Defi Orange Coin</h2>
       <nav>
         <ul>
           <li><a href="#home">Home</a></li>
-          <li><a href="#about">$ZING</a></li>
+          <li><a href="#about">$OJ</a></li>
           <li><a href="#contact">Contact</a></li>
           <li><a href="#newsletter">Newsletter</a></li>
         </ul>

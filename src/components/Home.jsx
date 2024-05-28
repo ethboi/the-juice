@@ -11,11 +11,11 @@ const Home = () => {
       <div className='home'>
         <div className='home-content'>
           <img src={gif} alt="Dancing Dog" className="dancing-dog" />
-          <h1>Welcome to the $ZING Coin Universe!</h1>
+          <h1>JUICING TO $1B MARKET CAP WITH OJ</h1>
           <img src={gif} alt="Dancing Dog" className="dancing-dog" />
         </div>
-        <p>Experience the joy and excitement of $ZING as we journey to the moon together.</p>
-        <p>#ZingToTheMoon</p>
+        <p>Welcome to the world of Orange Pepes, the first native Infinex meme coin.</p>
+        <p>#Defiorange</p>
     </div>
   </>
   );

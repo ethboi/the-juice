@@ -2,9 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Project ZING
+## Project OJ
 
-Welcome to project ZING:
+Welcome to project OJ:
 
 The website works with large files. Make sure to install git lfs https://git-lfs.com/ \
 homebrew: `brew install git-lfs`\

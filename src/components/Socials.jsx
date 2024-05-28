@@ -11,7 +11,7 @@ const Socials = () => {
         <a href="https://discord.gg/xFrcDG39" target="_blank" rel="noopener noreferrer">
           <img src={disclogo} alt="Discord" />
         </a>
-        <a href="https://twitter.com/your-twitter-handle" target="_blank" rel="noopener noreferrer">
+        <a href="https://twitter.com/bun_coin" target="_blank" rel="noopener noreferrer">
           <img src={xlogo} alt="Twitter" />
         </a>
       </div>

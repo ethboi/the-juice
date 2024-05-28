@@ -26,8 +26,8 @@ const CookieBanner = () => {
     showBanner && (
       <div className="cookie-overlay">
         <div className="cookie-banner">
-          <p>This website uses cookies to enhance your experience.</p>
-           <p>By continuing to use this site, you consent to our use of cookies.</p>
+          <p>This website uses Oranges to enhance your experience.</p>
+           <p>By continuing to use this site, you consent to our use of Oranges.</p>
           <div className="cookie-buttons">
             <button onClick={handleAccept}>Accept</button>
             <button onClick={handleLearnMore}>Learn More</button>

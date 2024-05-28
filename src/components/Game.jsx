@@ -7,7 +7,7 @@ const About = () => {
     <section id="game" className="game">
         <img className="game-img" src={background} alt="background not found" ></img>
       <div className="content">
-        <h2>ZingCoin Game</h2>
+        <h2>OJ Game</h2>
         <h2>Coming Soon!</h2>
         <p>Climb the leaderboard.</p>
     </div>

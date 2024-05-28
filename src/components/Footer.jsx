@@ -4,7 +4,7 @@ import './Styling/Footer.css';
 const Footer = () => {
   return (
     <footer>
-      <p>&copy; 2024 Zing.com All rights reserved.</p>
+      <p>&copy; 2024 Defiorange.com All rights reserved.</p>
     </footer>
   );
 };
