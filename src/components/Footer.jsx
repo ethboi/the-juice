@@ -1,10 +1,13 @@
-import React from 'react';
-import './Styling/Footer.css';
+import React from "react";
+import "./Styling/Footer.css";
 
 const Footer = () => {
   return (
-    <footer>
-      <p>&copy; 2024 Defiorange.com All rights reserved.</p>
+    <footer id="footer">
+      <p>
+        &copy; 2024 <a href="http://buncoin.xyz">buncoin.xyz</a>. All things in
+        buns reserved.
+      </p>
     </footer>
   );
 };

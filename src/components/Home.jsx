@@ -1,23 +1,24 @@
-import React from 'react';
-import gif from '../assets/zing-dog-transparent.gif';
-import './Styling/Home.css';
-import backgroundVideo from '../assets/AdobeBG.mov';
-
+import React from "react";
+import gif from "../assets/bun-coin-logo.png";
+import "./Styling/Home.css";
 
 const Home = () => {
   return (
     <>
-      <video src={backgroundVideo} autoPlay loop muted id='video'/>
-      <div className='home'>
-        <div className='home-content'>
+      <div className="home">
+        <div className="home-content">
           <img src={gif} alt="Dancing Dog" className="dancing-dog" />
-          <h1>JUICING TO $1B MARKET CAP WITH OJ</h1>
+          <div></div>
+          <h1>Welcome to the $BUN Coin Universe on BASE!</h1>
           <img src={gif} alt="Dancing Dog" className="dancing-dog" />
         </div>
-        <p>Welcome to the world of Orange Pepes, the first native Infinex meme coin.</p>
-        <p>#Defiorange</p>
-    </div>
-  </>
+        <p>
+          Experience the joy and excitement of $BUN as we journey to the moon
+          together and put things in buns along the way.
+        </p>
+        <p>#BunToTheMoon</p>
+      </div>
+    </>
   );
 };
 

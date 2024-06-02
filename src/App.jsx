@@ -1,31 +1,23 @@
-import React from 'react';
-import Header from './components/Header';
-import Home from './components/Home';
-import About from './components/About';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import Game from './components/Game';
-import CoreConcepts from './components/Section/CoreConcepts';
-import Examples from './components/Section/Examples';
-import CookieBanner from './components/CookieBanner';
-
-
+import React from "react";
+import Header from "./components/Header";
+import Home from "./components/Home";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import Game from "./components/Game";
+import CoreConcepts from "./components/Section/CoreConcepts";
 
 function App() {
   return (
     <>
-    <CookieBanner />
       <Header />
-      <Home/>
+      <Home />
       <main>
         <CoreConcepts />
-        <Examples />
+        <Game />
       </main>
-      <Game/>
-      <About />
+
       <Contact />
       <Footer />
-      
     </>
   );
 }

@@ -7,8 +7,8 @@ const About = () => {
     <section id="about" className="about">
       <img className="about-img" src={background} alt="background not found"/>
       <div className="content">
-        <h2>About $OJ</h2>
-        <p>OJ is a revolutionary cryptocurrency designed to bring happiness and wealth to your digital wallet through Infinex.</p>
+        <h2>About ZingCoin</h2>
+        <p>ZingCoin is a revolutionary cryptocurrency designed to bring happiness and wealth to your digital wallet.</p>
         <h1>See Who Is Online</h1>
         <iframe 
           className="DiscordWidget" 

@@ -34,17 +34,6 @@ const Examples = () => {
                 width: '500',
               }}
             />
-            <p>And</p>
-            <Timeline
-              dataSource={{
-                sourceType: 'profile',
-                screenName: 'Mocha_byte', // Replace with your Twitter username
-              }}
-              options={{
-                height: '400',
-                width: '500',
-              }}
-            />
             <pre>
               <code>{EXAMPLES[selectedTopic].code}</code>
             </pre>

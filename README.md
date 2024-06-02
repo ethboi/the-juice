@@ -2,9 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Project OJ
-
-Welcome to project OJ:
+## $BUN Coin
 
 The website works with large files. Make sure to install git lfs https://git-lfs.com/ \
 homebrew: `brew install git-lfs`\

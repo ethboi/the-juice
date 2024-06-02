@@ -1,16 +1,17 @@
-import React from 'react';
-import './Styling/Game.css';
-import background from "../assets/CP2.jpeg"
+import React from "react";
+import "./Styling/Game.css";
+import { BUN_TEAM } from "../data.js";
+import CoreConcept from "./Section/CoreConcept.jsx";
 
 const About = () => {
   return (
-    <section id="game" className="game">
-        <img className="game-img" src={background} alt="background not found" ></img>
-      <div className="content">
-        <h2>OJ Game</h2>
-        <h2>Coming Soon!</h2>
-        <p>Climb the leaderboard.</p>
-    </div>
+    <section id="contact" class="bun-section">
+      <h2>The $BUN Team</h2>
+      <ul className="core-concepts-list">
+        {BUN_TEAM.map((conceptItem) => (
+          <CoreConcept key={conceptItem.title} {...conceptItem} />
+        ))}
+      </ul>
     </section>
   );
 };
