@@ -1,16 +1,18 @@
-import { CORE_CONCEPTS } from "../../data.js";
-import CoreConcept from "./CoreConcept.jsx";
+import { OJNOMICS } from "../../data.js";
+import Ojnomic from "./Ojnomic.jsx";
 
-const CoreConcepts = () => {
+const Ojnomics = () => {
   return (
     <>
       <section id="bun-things" class="bun-section">
-        <h2>Some things in $BUN we like... </h2>
+        <h2>OJNOMICS </h2>
+        <h2 className="main-h2-h2">1,000,000,000 Supply</h2>
         <ul className="core-concepts-list">
-          {CORE_CONCEPTS.map((conceptItem) => (
-            <CoreConcept key={conceptItem.title} {...conceptItem} />
+          {OJNOMICS.map((conceptItem) => (
+            <Ojnomic key={conceptItem.title} {...conceptItem} />
           ))}
         </ul>
+        <p className="ca-address">CA: ComingSoon</p>
       </section>
       <section id="buy-bun" class="bun-section">
         <h2>Buy $BUN Coin</h2>
@@ -46,4 +48,4 @@ const CoreConcepts = () => {
   );
 };
 
-export default CoreConcepts;
+export default Ojnomics;

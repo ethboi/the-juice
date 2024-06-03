@@ -26,21 +26,21 @@ const Header = () => {
       <div className={`logo ${isScrolled ? "small" : ""}`}>
         <img src={logo} alt="$BUN Coint" className="logo-img" />
       </div>
-      <h1>$BUN Coin</h1>
-      <h2>...because, everything is better in $BUN.</h2>
+      <h1>$OJ Coin</h1>
+      {/* <h2>Jucing to $1B Market Cap With OJ</h2> */}
       <nav>
         <ul>
           <li>
-            <a href="#bun-things">$BUN things</a>
+            <a href="#bun-things">Story</a>
           </li>
           <li>
-            <a href="#buy-bun">Buy $BUN</a>
+            <a href="#buy-bun">Roadmap</a>
           </li>
           <li>
-            <a href="#meme-olympics">Meme Olympics</a>
+            <a href="#meme-olympics">Infinex</a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="#contact">Buy $OJ</a>
           </li>
         </ul>
       </nav>

@@ -5,7 +5,7 @@ import bun4Img from "./assets/bun-mocha.jpg";
 import bun5Img from "./assets/bun-ethboi.jpg";
 import bun6Img from "./assets/bun-mojo.jpg";
 
-export const CORE_CONCEPTS = [
+export const OJNOMICS = [
   {
     image: bun1Img,
     title: "Dog In $BUN",
@@ -41,13 +41,13 @@ export const BUN_TEAM = [
       "Ethboi is a cryptocurrency developer with a flair for $BUN-based innovations, a unique culinary experiment with burger buns. Known for blending diverse technologies in his blockchain projects, he mirrors this creativity in the world of $BUN.",
     url: "https://twitter.com/EthBoi_",
   },
-  {
-    image: bun6Img,
-    title: "Master Mojo",
-    description:
-      "Master Mojo is a bun enthusiast and crypto specialist with a passion for naturism. He combines his love for $BUN with deep knowledge in cryptocurrency, offering unique insights into the digital economy. ",
-    url: "https://twitter.com/mastermojo83",
-  },
+  // {
+  //   image: bun6Img,
+  //   title: "Master Mojo",
+  //   description:
+  //     "Master Mojo is a bun enthusiast and crypto specialist with a passion for naturism. He combines his love for $BUN with deep knowledge in cryptocurrency, offering unique insights into the digital economy. ",
+  //   url: "https://twitter.com/mastermojo83",
+  // },
 ];
 
 export const EXAMPLES = {
