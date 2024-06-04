@@ -5,7 +5,7 @@ import disclogo from "../assets/discordlogoW.png";
 
 const Socials = () => {
   return (
-    <div>
+    <div className="socials">
       <div className="social-links">
         <h3>Get in touch with us...</h3>
         <a href="https://discord.gg/infinex">

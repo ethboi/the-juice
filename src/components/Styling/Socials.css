@@ -1,9 +1,7 @@
 /* Add this to your CSS file */
-#socials {
-  padding: 1rem;
-  border-radius: 6px;
-  background-color: #2f1d4394;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+socials {
+  background-color: #121212;
+  box-shadow: 0 2px 8px #121212;
   margin-top: 1rem;
 }
 

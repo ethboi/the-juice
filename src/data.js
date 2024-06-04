@@ -8,19 +8,19 @@ import bun6Img from "./assets/bun-mojo.jpg";
 export const OJNOMICS = [
   {
     image: bun1Img,
-    title: "Dog In $BUN",
+    title: "RENOUNCED",
     description:
       "The original and our opinion best thing in $BUN. Dog in Bun stands out for its adorable concept and the cheerful camaraderie it inspires among its enthusiasts.",
   },
   {
     image: bun2Img,
-    title: "Bunny in $BUN",
+    title: "TAX 0%",
     description:
       "This $BUNny has got it all!  A fluffy bunny nestled snugly inside a soft bun, a gentle reminder of the fun and simple pleasures life can offer.",
   },
   {
     image: bun3Img,
-    title: "Cat in $BUN",
+    title: "LIQUIDITY BURNED",
     description:
       "An irresistibly cute mischievous cat's face peeking out from between the halves of a soft burger bun. Bunderful!",
   },
@@ -31,14 +31,14 @@ export const BUN_TEAM = [
     image: bun4Img,
     title: "Mochabyte",
     description:
-      "Mochabyte is a crypto enthusiast with a keen interest in blockchain technology and digital currencies. Their passion for cryptocurrency is matched by their love for buns, showcasing a unique blend of interests that spans from tech to culinary delights.",
+      "Mochabyte is a crypto enthusiast with a keen interest in blockchain technology and digital currencies. Their passion for cryptocurrency is matched by their love for Oranges, showcasing a unique blend of interests that spans from tech to culinary delights.",
     url: "https://twitter.com/Mocha_byte",
   },
   {
     image: bun5Img,
     title: "Ethboi",
     description:
-      "Ethboi is a cryptocurrency developer with a flair for $BUN-based innovations, a unique culinary experiment with burger buns. Known for blending diverse technologies in his blockchain projects, he mirrors this creativity in the world of $BUN.",
+      "Ethboi is a cryptocurrency developer with a flair for $OJ-based innovations, a unique culinary experiment with Oranges. Known for blending diverse technologies in his blockchain projects, he mirrors this creativity in the world of $OJ.",
     url: "https://twitter.com/EthBoi_",
   },
   // {
@@ -52,13 +52,13 @@ export const BUN_TEAM = [
 
 export const EXAMPLES = {
   discord: {
-    title: "AmaZing Discord",
-    description: "Join us and become an Underdog",
+    title: "OJeez Luise our Discord",
+    description: "Join us and become an Orange",
     code: ``,
   },
   twitter: {
     title: "",
-    description: "Stay updated with our developing team and ZING Coin",
+    description: "Stay updated with our developing team and OJ Coin",
     code: ``,
   },
 };

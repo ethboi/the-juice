@@ -70,13 +70,13 @@ main h3 {
 
 .bun-section ul {
   list-style: none;
-  padding: 0.5rem;
+  padding: 0rem;
   margin: 0;
   display: flex;
   gap: 1rem;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: center;
-  align-items: flex-end; /* Align items at the bottom */
+  align-items: flex-end; 
 }
 
 .bun-section li {
@@ -100,14 +100,14 @@ main h3 {
 }
 
 .bun-section li img {
-  padding-top: 0rem;
-  width: 80%; /* Set image width to 80% of the box */
-  object-fit: cover;
-  border-radius: 10px 10px 0 0;
+  padding-top: 1rem;
+  width: 90%; /* Set image width to 80% of the box */
+  /* object-fit: cover; */
+  border-radius: 20px 20px 20px 20px;
 }
 
 .bun-section .middle {
-  margin-bottom: 2rem; /* Raise the middle box */
+  height: 30rem; /* Make the middle box taller */
 }
 
 .bun-section li h3 {

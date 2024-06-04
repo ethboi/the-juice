@@ -7,6 +7,7 @@ import Game from "./components/Game";
 import CoreConcepts from "./components/Section/Ojnomics";
 import ScrollingSection from "./components/ScrollingSection";
 import Ojnomics from "./components/Section/Ojnomics";
+import ProgressBar from "./components/ProgressBar";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <ScrollingSection />
       <main>
         <Ojnomics />
+        <ProgressBar />
         <Game />
       </main>
       <Contact />
