@@ -54,18 +54,20 @@ main h2 {
   transform: none;
   text-align: center;
   text-transform: uppercase;
+  margin-bottom: 0.5rem;
 }
 
 .main-h2-h2 {
   text-align: center;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: Changa One, Impact, sans-serif;
   margin: 0 0 2rem 0;
-  color: rgb(254 111 57 / 1);
-  font-size: 2rem;
+  color: #ffffff;
+  font-size: 50px;
+  text-transform: uppercase;
 }
 main h3 {
   text-align: center;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: Changa One, Impact, sans-serif;
   margin: 0 0 2rem 0;
   color: rgba(255, 255, 255, 0.7);
   font-size: 2rem;
@@ -85,24 +87,20 @@ main h3 {
 .juice-section li {
   width: 25rem;
   text-align: center;
-  background: linear-gradient(45deg, #121212, #121212);
+  background: #3861fb;
   border-color: rgba(255, 255, 255, 0.7);
-  border-radius: 20px;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 1rem;
-  max-width: 100rem;
-}
-
-.juice-section li:hover {
-  transform: scale(1.1); /* Scale up on hover */
+  max-width: 80rem;
 }
 
 .juice-section li img {
   padding-top: 1rem;
   width: 90%;
-  border-radius: 20px 20px 20px 20px;
+  border-radius: 10px 10px 10px 10px;
 }
 
 .juice-section .middle {
@@ -120,6 +118,15 @@ main h3 {
   font-size: 1.2rem;
   margin-top: 0;
   padding: 0.2rem 1rem; /* Increase the padding */
+}
+
+.juice-section .btn {
+  text-decoration: none;
+  color: #3861fb;
+  background: #fbe200;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 20px;
 }
 
 #examples {

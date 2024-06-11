@@ -17,28 +17,27 @@ const Ojnomics = () => {
                 alt={conceptItem.title}
                 className="box-image"
               />
-              <h3>{conceptItem.title}</h3>
+              <h2 className="main-h2-h2">{conceptItem.title}</h2>
             </li>
           ))}
         </ul>
-        <p className="ca-address">CA: ComingSoon</p>
       </section>
-      <section id="meme-olympics" class="bun-section">
-        <h2>OUR STORY</h2>
-        <h2 className="h2undertitle">
-          What the orange is going on, is that a tangerine!?
-        </h2>
+      <section
+        id="more-juice"
+        className="juice-section juice-section-2 section-full"
+      >
+        <h2>MORE JUICE!!</h2>
+        <h2 className="main-h2-h2">What the juice?, is that a tangerine!?</h2>
         <h3>
-          $OJ is our entry into the Infinex ecosystem. And will e the first
-          community meme-coin{" "}
+          Juice ($OJ) is the first Infinex ecosystem meme coin.
+          <br /> Infinex is the the everything app that brings slick UX to a
+          unified UI layer!
         </h3>
         <h3>
-          It's not a Dex, it's definitely not a Cex, but it's the one site that
-          brings all together with a unified UI layer!
-        </h3>
-        <h3>
-          {" "}
-          Find out more about <a href="https://infinex.io">INFINEX.</a>
+          Find out more about
+          <a href="https://infinex.io" className="btn">
+            INFINEX
+          </a>
         </h3>
       </section>
     </>

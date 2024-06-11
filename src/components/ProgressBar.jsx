@@ -1,5 +1,5 @@
-import React, { useEffect, useRef } from 'react';
-import './Styling/ProgressBar.css';
+import React, { useEffect, useRef } from "react";
+import "./Styling/ProgressBar.css";
 
 const RoadmapCard = ({ title, description, imgSrc, className }) => {
   const cardRef = useRef();
@@ -10,17 +10,17 @@ const RoadmapCard = ({ title, description, imgSrc, className }) => {
       if (element) {
         const rect = element.getBoundingClientRect();
         if (rect.top < window.innerHeight && rect.bottom >= 0) {
-          element.classList.add('visible');
+          element.classList.add("visible");
         } else {
-          element.classList.remove('visible');
+          element.classList.remove("visible");
         }
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
     handleScroll(); // Trigger the function on initial load
 
-    return () => window.removeEventListener('scroll', handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
@@ -29,10 +29,7 @@ const RoadmapCard = ({ title, description, imgSrc, className }) => {
         <h3 className="roadmap-title">
           <strong>{title}</strong>
         </h3>
-        <p className="paragraph roadmap2">{description}</p>
-      </div>
-      <div className="roadmap-img-box">
-        <img src={imgSrc} alt="" className="roadmap-img" />
+        <h3 className="paragraph roadmap2">{description}</h3>
       </div>
     </div>
   );
@@ -50,22 +47,22 @@ const ProgressBar = () => {
       if (imageWrapper && roadmapWrapper) {
         const rect = roadmapWrapper.getBoundingClientRect();
         if (rect.top <= 0 && rect.bottom >= window.innerHeight) {
-          imageWrapper.style.position = 'fixed';
-          imageWrapper.style.top = '0';
+          imageWrapper.style.position = "fixed";
+          imageWrapper.style.top = "0";
         } else if (rect.top > 0) {
-          imageWrapper.style.position = 'relative';
-          imageWrapper.style.top = '0';
+          imageWrapper.style.position = "relative";
+          imageWrapper.style.top = "0";
         } else {
-          imageWrapper.style.position = 'absolute';
+          imageWrapper.style.position = "absolute";
           imageWrapper.style.top = `${rect.height - window.innerHeight}px`;
         }
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
     handleScroll(); // Trigger the function on initial load
 
-    return () => window.removeEventListener('scroll', handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
@@ -81,32 +78,37 @@ const ProgressBar = () => {
         <div className="roadmap-cards">
           {[
             {
-              title: 'No Promises',
+              title: "No Promises",
               description:
-                "EPEP isn't an investment, it's a meme coin & also an experiment to test the community & have FUN!",
-              imgSrc: 'https://assets-global.website-files.com/65e6274f1c662cd87f44ba36/65e627501c662cd87f44bb20_roadmap-shape_01.png',
-              className: '_1'
+                "JUICE isn't an investment, it's a meme coin & also an experiment to test the community & have FUN!",
+              imgSrc:
+                "https://assets-global.website-files.com/65e6274f1c662cd87f44ba36/65e627501c662cd87f44bb20_roadmap-shape_01.png",
+              className: "_1",
             },
             {
-              title: 'WEN ROADMAP!?',
+              title: "WEN ROADMAP!?",
               description:
-                "There's no roadmap here bozo, we just splashing and leaping around.",
-              imgSrc: 'https://assets-global.website-files.com/65e6274f1c662cd87f44ba36/65e627501c662cd87f44bb22_roadmap-shape_02.png',
-              className: '_2'
+                "There's no roadmap here bozo, we are just drinking JUICE and eating tangerines.",
+              imgSrc:
+                "https://assets-global.website-files.com/65e6274f1c662cd87f44ba36/65e627501c662cd87f44bb22_roadmap-shape_02.png",
+              className: "_2",
             },
             {
-              title: 'Community First',
+              title: "Community First",
               description:
-                'Share memes, leap together through our pond & celebrate each other’s gains.',
-              imgSrc: 'https://assets-global.website-files.com/65e6274f1c662cd87f44ba36/65e627501c662cd87f44bb21_roadmap-shape_03.png',
-              className: '_3'
+                "Share memes, squeeze together and celebrate each other’s gains.",
+              imgSrc:
+                "https://assets-global.website-files.com/65e6274f1c662cd87f44ba36/65e627501c662cd87f44bb21_roadmap-shape_03.png",
+              className: "_3",
             },
             {
-              title: 'Get EPEP',
-              description: 'Join us for memes and community spirit. Vibe and meme together as one!',
-              imgSrc: 'https://assets-global.website-files.com/65e6274f1c662cd87f44ba36/65e627501c662cd87f44bb21_roadmap-shape_03.png',
-              className: '_4'
-            }
+              title: "Got Juice?",
+              description:
+                "Join us for memes and community spirit. Vibe and meme together as one!",
+              imgSrc:
+                "https://assets-global.website-files.com/65e6274f1c662cd87f44ba36/65e627501c662cd87f44bb21_roadmap-shape_03.png",
+              className: "_4",
+            },
           ].map((card, index) => (
             <RoadmapCard key={index} {...card} />
           ))}

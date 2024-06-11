@@ -27,7 +27,7 @@
 }
 
 .roadmap-card {
-  background-color: #333; /* Darker grey background */
+  background-color: #3861fb;
   border-radius: 10px;
   padding: 1rem;
   opacity: 0;
@@ -41,16 +41,16 @@
 }
 
 .roadmap-card-details {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .roadmap-title {
-  font-size: 1.75rem; /* Bigger heading */
-  font-family: 'Changa One', Impact, sans-serif;
-  background: linear-gradient(90deg, #00ff00, #0000ff);
-  -webkit-background-clip: text;
+  color: #ffffff;
+  font-size: 50px;
   -webkit-text-fill-color: transparent;
-  margin-bottom: 0.5rem;
+  background-image: linear-gradient(131deg, #fff, #fe6f39 51%, #fbe200);
+  -webkit-background-clip: text;
+  background-clip: text;
 }
 
 .paragraph {
