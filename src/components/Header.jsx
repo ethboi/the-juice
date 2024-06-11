@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import logo from "../assets/bun-coin.png";
+import logo from "../assets/juice.png";
 import "./Styling/Header.css";
 
 const Header = () => {
@@ -23,24 +23,30 @@ const Header = () => {
 
   return (
     <header className={`navbar ${isScrolled ? "scrolled" : ""}`}>
-      <div className={`logo ${isScrolled ? "small" : ""}`}>
-        <img src={logo} alt="$BUN Coint" className="logo-img" />
+      <div classname="flex">
+        <div className={`logo ${isScrolled ? "small" : ""}`}>
+          <img src={logo} alt="$JUICE" className="logo-img" />
+        </div>
+        <h1>
+          Got <span className="btn">Juice?</span>
+        </h1>
       </div>
-      <h1>$OJ Coin</h1>
       {/* <h2>Jucing to $1B Market Cap With OJ</h2> */}
       <nav>
         <ul>
           <li>
-            <a href="#bun-things">Story</a>
+            <a href="#juice">Juice!</a>
           </li>
           <li>
-            <a href="#buy-bun">Roadmap</a>
+            <a href="#more-juice">More Juice!!</a>
           </li>
           <li>
-            <a href="#meme-olympics">Infinex</a>
+            <a href="the-juice">The Juice!!!</a>
           </li>
           <li>
-            <a href="#contact">Buy $OJ</a>
+            <a href="#juice" className="btn">
+              Buy JUICE
+            </a>
           </li>
         </ul>
       </nav>

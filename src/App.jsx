@@ -4,7 +4,6 @@ import Home from "./components/Home";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Game from "./components/Game";
-import CoreConcepts from "./components/Section/Ojnomics";
 import ScrollingSection from "./components/ScrollingSection";
 import Ojnomics from "./components/Section/Ojnomics";
 import ProgressBar from "./components/ProgressBar";

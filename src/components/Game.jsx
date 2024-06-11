@@ -5,7 +5,7 @@ import CoreConcept from "./Section/Ojnomic.jsx";
 
 const About = () => {
   return (
-    <section id="contact" class="bun-section">
+    <section id="contact" class="juice-section">
       <h2>The $OJ Team</h2>
       <ul className="core-concepts-list">
         {BUN_TEAM.map((conceptItem) => (
