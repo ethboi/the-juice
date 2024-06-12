@@ -5,7 +5,7 @@ const About = () => {
     <>
       <section id="juice" className="juice-section">
         <h2>Juice!</h2>
-        <h2 className="main-h2-h2">1,000,000,000 Supply</h2>
+        <h2 className="main-h2-h2">420,690,000,000,000 Supply</h2>
         <ul>
           {OJNOMICS.map((conceptItem, index) => (
             <li className="box" key={conceptItem.title}>
