@@ -5,7 +5,8 @@ const Footer = () => {
   return (
     <footer id="footer">
       <p>
-        &copy; 2024 <a href="http://buncoin.xyz">buncoin.xyz</a>. All things from OJ reserved.
+        &copy; 2024 <a href="http://got-juice.xyz">got-juice.xyz</a>. All things
+        from JUICE reserved.
       </p>
     </footer>
   );
