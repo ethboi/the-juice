@@ -1,23 +1,21 @@
-
 .section-hero {
-    -webkit-text-fill-color: inherit;
-    background-color: transparent;
-    background-position: 100%;
-    background-repeat: repeat;
-    background-size: cover;
-    background-attachment: scroll;
-    background-clip: border-box;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 90vh;
-    /* margin-top: -80px; */
-    padding: 11.25rem 2.5rem 9.375rem;
-    display: flex;
-    position: relative;
-    overflow: hidden;
+  -webkit-text-fill-color: inherit;
+  background-color: #3861fb;
+  background-position: 100%;
+  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  background-clip: border-box;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  /* margin-top: -80px; */
+  padding: 9rem 2.5rem 0rem;
+  display: flex;
+  position: relative;
+  overflow: hidden;
 }
-
 
 .content {
   text-align: center;
@@ -46,20 +44,12 @@
 .block-hero {
   width: 100%;
 }
+
 .heading.h1 {
-  opacity: .9;
-  filter: contrast(200%);
-  color: #419999;
-  -webkit-text-stroke-width: .1px;
-  -webkit-text-stroke-color: rgba(0, 0, 0, .15);
-  -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(131deg, #fff, #d8a1d9 51%, #00c0ff);
-  -webkit-background-clip: text;
-  background-clip: text;
-  padding-left: 100px;
-  padding-right: 100px;
+  opacity: 0.9;
+  color: #ffffff;
   font-family: Changa One, Impact, sans-serif;
-  font-size: 80px;
+  font-size: 50px;
 }
 
 .heading.h1::before {
@@ -71,15 +61,16 @@
   bottom: 0;
   color: transparent;
   text-shadow: 2px 2px 0px rgba(255, 255, 255, 0.8),
-               -2px 2px 0px rgba(255, 255, 255, 0.8),
-               2px -2px 0px rgba(255, 255, 255, 0.8),
-               -2px -2px 0px rgba(255, 255, 255, 0.8);
+    -2px 2px 0px rgba(255, 255, 255, 0.8), 2px -2px 0px rgba(255, 255, 255, 0.8),
+    -2px -2px 0px rgba(255, 255, 255, 0.8);
   z-index: -1;
 }
+
 .text-span-3 {
-  color: #00d0d0;
+  color: #ffffff;
+  font-size: 90px;
   -webkit-text-fill-color: transparent;
-  background-color: #fff;
+  background-image: linear-gradient(131deg, #fff, #fe6f39 51%, #fbe200);
   -webkit-background-clip: text;
   background-clip: text;
 }
@@ -88,17 +79,22 @@
   color: var(--white);
   text-decoration: none;
 }
+
 .heading-2.main {
   opacity: 1;
   color: #fbe200;
   -webkit-text-stroke-width: 1px;
   mix-blend-mode: normal;
+  background: #fe6f39;
+  border-radius: 10px;
+  width: 350px;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 1280px) {
   .heading-2 {
-      pointer-events: auto;
-      transform: none;
+    pointer-events: auto;
+    transform: none;
   }
 }
 .heading-2 {
@@ -113,15 +109,25 @@
 }
 
 element.style {
-  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
   transform-style: preserve-3d;
 }
 
 @keyframes wiggle {
-  0%, 100% { transform: rotate(0deg); }
-  25% { transform: rotate(-5deg); }
-  50% { transform: rotate(5deg); }
-  75% { transform: rotate(-5deg); }
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  75% {
+    transform: rotate(-5deg);
+  }
 }
 
 .wiggle:hover {
