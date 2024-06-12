@@ -1,9 +1,9 @@
 import img1 from "./assets/pepe-shaman.png";
 import img2 from "./assets/twerk.png";
-import bun3Img from "./assets/cat-bun.jpg";
-import img4 from "./assets/mocha.png";
-import bun5Img from "./assets/bun-ethboi.jpg";
-import bun6Img from "./assets/bun-ethboi.jpg";
+import img3 from "./assets/blondie.png";
+import img4 from "./assets/mocha.jpg";
+import img5 from "./assets/ethboi.jpg";
+import img6 from "./assets/shaman.jpg";
 
 export const OJNOMICS = [
   {
@@ -14,14 +14,12 @@ export const OJNOMICS = [
   {
     image: img2,
     title: "TAX 0%",
-    description:
-      "This $BUNny has got it all!  A fluffy bunny nestled snugly inside a soft bun, a gentle reminder of the fun and simple pleasures life can offer.",
+    description: "",
   },
   {
-    image: bun3Img,
+    image: img3,
     title: "LIQUIDITY BURNED",
-    description:
-      "An irresistibly cute mischievous cat's face peeking out from between the halves of a soft burger bun. Bunderful!",
+    description: "",
   },
 ];
 
@@ -30,29 +28,29 @@ export const TEAM = [
     image: img4,
     title: "Mochabyte",
     description:
-      "Mochabyte is a crypto enthusiast with a keen interest in blockchain technology and digital currencies. Their passion for cryptocurrency is matched by their love for Oranges, showcasing a unique blend of interests that spans from tech to culinary delights.",
-    url: "https://twitter.com/Mocha_byte",
+      "Mochabyte is a crypto enthusiast with a keen interest in blockchain technology and digital currencies.",
+    url: "https://x.com/Mocha_byte",
   },
   {
-    image: bun5Img,
+    image: img5,
     title: "Ethboi",
     description:
-      "Ethboi is a cryptocurrency developer with a flair for $OJ-based innovations, a unique culinary experiment with Oranges. Known for blending diverse technologies in his blockchain projects, he mirrors this creativity in the world of $OJ.",
-    url: "https://twitter.com/EthBoi_",
+      "Ethboi is a cryptocurrency developer with a flair for JUICE-based innovations, a unique culinary experiment with Oranges.",
+    url: "https://x.com/EthBoi_",
   },
   {
-    image: bun6Img,
-    title: "Master Mojo",
+    image: img6,
+    title: "Shaman",
     description:
-      "Master Mojo is a bun enthusiast and crypto specialist with a passion for naturism. He combines his love for $BUN with deep knowledge in cryptocurrency, offering unique insights into the digital economy. ",
-    url: "https://twitter.com/mastermojo83",
+      "Shaman is a JUICE enthusiast and crypto specialist, offering unique insights into the digital economy. ",
+    url: "https://x.com/stableshaman",
   },
 ];
 
 export const EXAMPLES = {
   discord: {
     title: "OJeez Luise our Discord",
-    description: "Join us and become an Orange",
+    description: "Join us and get JUICE",
     code: ``,
   },
   twitter: {
