@@ -1,6 +1,6 @@
 import { OJNOMICS } from "../../data.js";
 
-const Ojnomics = () => {
+const About = () => {
   return (
     <>
       <section id="juice" className="juice-section">
@@ -8,10 +8,7 @@ const Ojnomics = () => {
         <h2 className="main-h2-h2">1,000,000,000 Supply</h2>
         <ul className="core-concepts-list">
           {OJNOMICS.map((conceptItem, index) => (
-            <li
-              className={`box ${index === 1 ? "middle" : ""}`}
-              key={conceptItem.title}
-            >
+            <li className="box" key={conceptItem.title}>
               <img
                 src={conceptItem.image}
                 alt={conceptItem.title}
@@ -44,4 +41,4 @@ const Ojnomics = () => {
   );
 };
 
-export default Ojnomics;
+export default About;

@@ -1,7 +1,7 @@
 import React from "react";
-import "./Styling/Socials.css";
-import xlogo from "../assets/xlogoW.png";
-import disclogo from "../assets/discordlogoW.png";
+import "../Styling/Socials.css";
+import xlogo from "../../assets/xlogoW.png";
+import disclogo from "../../assets/discordlogoW.png";
 
 const Socials = () => {
   return (
@@ -11,7 +11,7 @@ const Socials = () => {
         <a href="https://discord.gg/infinex">
           <img src={disclogo} alt="Discord" />
         </a>
-        <a href="https://twitter.com/buncoin">
+        <a href="https://twitter.com/ethboi_">
           <img src={xlogo} alt="Twitter" />
         </a>
       </div>

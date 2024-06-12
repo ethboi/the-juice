@@ -1,5 +1,5 @@
 import React from "react";
-import "./Styling/Contact.css";
+import "../Styling/Contact.css";
 import Socials from "./Socials";
 
 const Contact = () => {

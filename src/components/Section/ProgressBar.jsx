@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
-import "./Styling/ProgressBar.css";
-import image from "../assets/pepe-calvin-kain.png";
+import "../Styling/ProgressBar.css";
+import image from "../../assets/pepe-calvin-kain.png";
 
 const RoadmapCard = ({ title, description, className }) => {
   const cardRef = useRef();

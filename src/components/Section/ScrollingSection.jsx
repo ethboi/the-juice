@@ -1,5 +1,5 @@
 import React from "react";
-import "./Styling/ScrollingSection.css";
+import "../Styling/ScrollingSection.css";
 
 const ScrollingSection = () => {
   return (

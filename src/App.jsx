@@ -1,12 +1,12 @@
 import React from "react";
 import Header from "./components/Header";
 import Home from "./components/Home";
-import Contact from "./components/Contact";
+import Contact from "./components/Section/Contact";
 import Footer from "./components/Footer";
-import Game from "./components/Game";
-import ScrollingSection from "./components/ScrollingSection";
-import Ojnomics from "./components/Section/Ojnomics";
-import ProgressBar from "./components/ProgressBar";
+import Team from "./components/Section/Team";
+import ScrollingSection from "./components/Section/ScrollingSection";
+import About from "./components/Section/About";
+import ProgressBar from "./components/Section/ProgressBar";
 
 function App() {
   return (
@@ -15,9 +15,9 @@ function App() {
       <Home />
       <ScrollingSection />
       <main>
-        <Ojnomics />
+        <About />
         <ProgressBar />
-        <Game />
+        <Team />
       </main>
       <Contact />
       <Footer />

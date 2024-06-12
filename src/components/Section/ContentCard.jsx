@@ -1,4 +1,4 @@
-export default function Ojnomic({ image, title, description, url }) {
+export default function ContentCard({ image, title, description, url }) {
   return (
     <li>
       <img src={image} alt={title} />

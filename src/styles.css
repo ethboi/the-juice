@@ -97,9 +97,10 @@ main h3 {
 }
 
 .juice-section li img {
-  padding-top: 1rem;
-  width: 90%;
+  width: 100%;
   border-radius: 10px 10px 10px 10px;
+  background: rgb(254 111 57 / 1);
+  margin-bottom: 20px;
 }
 
 .juice-section li h3 {
