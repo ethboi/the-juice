@@ -49,7 +49,7 @@
 }
 
 .paragraph {
-  color: #fff; /* White letters */
+  color: #fff;
 }
 
 .roadmap-img-box {
@@ -84,4 +84,47 @@
 
 .button-4:hover {
   background-color: #ff856e;
+}
+
+@media screen and (max-width: 768px) {
+  .layout-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .roadmap-wrapper {
+    margin-left: 0;
+  }
+
+  .roadmap-title {
+    font-size: 2rem;
+  }
+
+  .roadmap-card {
+    padding: 0.5rem;
+  }
+
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button-4 {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .roadmap-wrapper {
+    margin-left: 50px;
+  }
+
+  .roadmap-title {
+    font-size: 3rem;
+  }
+
+  .roadmap-card {
+    padding: 0.75rem;
+  }
 }

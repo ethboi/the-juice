@@ -1,4 +1,5 @@
 import { OJNOMICS } from "../../data.js";
+import "../Styling/About.css";
 
 const About = () => {
   return (
