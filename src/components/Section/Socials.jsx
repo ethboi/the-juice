@@ -9,10 +9,10 @@ const Socials = () => {
       <div className="social-links">
         <h3>Get in touch with us...</h3>
         <a href="https://discord.gg/infinex">
-          <img src={disclogo} alt="Discord" />
+          <img src={disclogo} alt="Got Juice?" />
         </a>
-        <a href="https://twitter.com/ethboi_">
-          <img src={xlogo} alt="Twitter" />
+        <a href="https://x.com/gotjuicexyz">
+          <img src={xlogo} alt="Got Juice?" />
         </a>
       </div>
     </div>

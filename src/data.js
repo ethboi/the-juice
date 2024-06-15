@@ -38,7 +38,6 @@ export const TEAM = [
       "Ethboi is a cryptocurrency developer with a flair for JUICE-based innovations, a unique culinary experiment with Oranges.",
     url: "https://x.com/EthBoi_",
   },
-
 ];
 
 export const EXAMPLES = {
