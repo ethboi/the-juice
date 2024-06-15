@@ -7,6 +7,7 @@
   justify-content: center;
   gap: 9%;
   position: fixed;
+  top: 0; /* Make sure the header is fixed at the top */
   width: 100%;
   font-family: Changa One, Impact, sans-serif;
   z-index: 1000;
@@ -20,17 +21,22 @@
 }
 
 .navbar.scrolled {
-  transition: font-size 0.5s ease-in-out; /* Smooth transition for font size */
+  padding: 0.5rem; /* Adjust padding when scrolled */
+  transition: font-size 0.5s ease-in-out, padding 0.5s ease-in-out;
+}
+
+.navbar.scrolled .logo,
+.navbar.scrolled h1 {
+  display: none; /* Hide the logo and heading when scrolled */
 }
 
 .navbar h1 {
-  text-transform: uppercase;
-  transition: font-size 0.5s ease-in-out; /* Smooth transition for font size */
+  transition: font-size 0.5s ease-in-out;
 }
 
 .logo {
-  width: 90px; /* Set the width of the logo */
-  transition: transform 0.5s ease-in-out; /* Smooth transition for scale */
+  width: 90px;
+  transition: transform 0.5s ease-in-out;
 }
 
 .logo-img {
@@ -63,4 +69,34 @@
   background: #fbe200;
   padding: 10px;
   border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    padding: 0rem 0.5rem;
+  }
+
+  .logo {
+    width: 80px;
+  }
+
+  .navbar nav ul {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .navbar nav li {
+    margin: 0rem 0.3rem;
+  }
+
+  .navbar nav a {
+    font-size: large;
+  }
+}
+
+/* Add this to ensure the home section is not hidden behind the header */
+.section-hero {
+  padding-top: 6rem; /* Adjust padding-top to accommodate the fixed header */
 }

@@ -1,3 +1,10 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
 .section-hero {
   -webkit-text-fill-color: inherit;
   background-color: #3861fb;
@@ -10,11 +17,12 @@
   justify-content: center;
   align-items: center;
   min-height: 80vh;
-  /* margin-top: -80px; */
   padding: 9rem 2.5rem 0rem;
   display: flex;
   position: relative;
   overflow: hidden;
+  width: 100%;
+  box-sizing: border-box; /* Ensure padding is included in the width */
 }
 
 .content {
@@ -38,7 +46,7 @@
   grid-template-columns: 1fr 1fr;
   grid-auto-flow: row;
   width: 100%;
-  display: flex;
+  display: grid;
 }
 
 .block-hero {
@@ -97,6 +105,7 @@
     transform: none;
   }
 }
+
 .heading-2 {
   perspective: none;
   color: #ffb2bf;
@@ -132,4 +141,35 @@ element.style {
 
 .wiggle:hover {
   animation: wiggle 0.5s ease-in-out 2; /* wiggle twice on hover */
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .section-hero {
+    padding: 9rem 1rem 0rem;
+  }
+
+  .heading.h1 {
+    font-size: 36px;
+  }
+
+  .text-span-3 {
+    font-size: 48px;
+  }
+
+  .heading-2.main {
+    font-size: 24px;
+    width: auto;
+    padding: 0.5rem 1rem;
+  }
+
+  ._2-column-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .block-hero {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
 }

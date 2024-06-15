@@ -189,3 +189,28 @@ main h3 {
 #tab-content code {
   font-size: 1rem;
 }
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  main h2 {
+    font-size: 3rem;
+  }
+
+  .main-h2-h2 {
+    font-size: 2.5rem;
+  }
+
+  main h3 {
+    font-size: 1.5rem;
+  }
+
+  .juice-section ul {
+    flex-wrap: wrap;
+  }
+
+  .juice-section li {
+    width: 48%;
+    margin-bottom: 1rem;
+  }
+}
